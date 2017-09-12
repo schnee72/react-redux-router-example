@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'react-router-redux';
 import store, { history } from './store';
 import App from './containers/App';
+import './index.css';
 
 const root = document.getElementById('root');
 
