@@ -8,10 +8,8 @@ import NotFound from './NotFound';
 const App = () =>
   <div>
     <header>
-      <Link to="/">Home</Link>
-      {' '}
-      <Link to="/about">About</Link>
-      {' '}
+      <Link to="/">Home</Link>{' '}
+      <Link to="/about">About</Link>{' '}
       <Link to="/contact">Contact</Link>
     </header>
     <main>
